@@ -19,7 +19,7 @@ function AppHeader() {
   return (
     <div className={styles.appHeader}>
       <Button variant="primary" onClick={() => setModalOpen(true)}>
-        Add Task
+        Create Task
       </Button>
       <SelectButton
         id="status"
