@@ -62,7 +62,7 @@ function TodoItem({ todo }) {
               {todo.title}
             </p>
             <p className={styles.time}>
-              {format(new Date(todo.time), 'dd/MMM/yyyy, p')}
+              {format(new Date(todo.time), 'dd-MMM-yyyy, p')}
             </p>
           </div>
         </div>
